@@ -1,1 +1,3 @@
-{"buildCommand":"node scripts/generate-env.js","functions":{"api/*.js":{"runtime":"nodejs20.x"}}}
+{
+  "buildCommand": "node scripts/generate-env.js"
+}
