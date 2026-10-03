@@ -1,0 +1,1 @@
+{"scripts":{"build":"node scripts/generate-env.js"},"dependencies":{"@supabase/supabase-js":"^2.57.4","razorpay":"^2.9.6"}}

@@ -1,0 +1,1 @@
+const db=supabase.createClient(ENV.SUPABASE_URL,ENV.SUPABASE_ANON_KEY);(async()=>{const r=await db.from('orders').select('*').order('created_at',{ascending:false}),l=document.querySelector('#list');(r.data||[]).forEach(o=>{const d=document.createElement('div');d.className='card';d.textContent=o.id+' — '+o.payment_status+' — ₹'+o.total;l.append(d)})})();
